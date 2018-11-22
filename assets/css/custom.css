@@ -76,7 +76,12 @@ body{
 #left-banner{
 	border-radius: 0.5em;
 	padding: 2em;
-	border: 1px solid black;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00dcff+1,2989d8+67,2989d8+67,207cca+99,207cca+100,7db9e8+100 */
+	background: #00dcff; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #00dcff 1%, #2989d8 67%, #2989d8 67%, #207cca 99%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #00dcff 1%,#2989d8 67%,#2989d8 67%,#207cca 99%,#207cca 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #00dcff 1%,#2989d8 67%,#2989d8 67%,#207cca 99%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dcff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #right-banner{
