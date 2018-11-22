@@ -217,3 +217,11 @@ body{
 .color-grey{
 	color: #797979;
 }
+.ban-left{
+	width: 30%;
+	float: left;
+}
+.ban-right{
+	width: 70%;
+	float: right;
+}

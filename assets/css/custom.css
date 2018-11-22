@@ -76,6 +76,7 @@ body{
 #left-banner{
 	border-radius: 0.5em;
 	padding: 2em;
+	color: #fff;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00dcff+1,2989d8+67,2989d8+67,207cca+99,207cca+100,7db9e8+100 */
 	background: #00dcff; /* Old browsers */
 	background: -moz-linear-gradient(45deg, #00dcff 1%, #2989d8 67%, #2989d8 67%, #207cca 99%, #207cca 100%, #7db9e8 100%); /* FF3.6-15 */
@@ -83,13 +84,68 @@ body{
 	background: linear-gradient(45deg, #00dcff 1%,#2989d8 67%,#2989d8 67%,#207cca 99%,#207cca 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dcff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
-
-#right-banner{
-	border-radius: 0.5em;
-	padding: 2em;
-	border: 1px solid black;
+.left-banner h2{
+	text-align: center;
+	font-weight: 900;
+	color: #fff;
+}
+.left-banner p{
+	text-align: center;
+	color:#fff;
+	font-size: 16px;
+}
+.detail-left-ban{
+	border-left: 3px solid #fff;
 }
 
+.detail-left-ban p{
+	font-size: 14px;
+	text-align: left;
+}
+#right-banner{
+	background-repeat: no-repeat, repeat;
+	background-position: center;
+	background-size: cover;
+  	position: relative;
+	border-radius: 0.5em;
+	padding: 2em;
+	color: #fff !important;
+
+}
+.bg-ban-text{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white !important;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  padding: 20px;
+  height: auto;
+}
+.bg-ban-text h1{
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.top32{
+	margin-top: 32px;
+}
+.btn-ban{
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	border-radius: 30px;
+	padding: 18px 40px;
+	text-align: center;
+	margin: auto;
+	letter-spacing: 2px;
+	transition: .2s;
+}
+.btn-ban:hover{
+	color:#000;
+	background: #fff;
+	text-decoration: none;
+}
 .wrapper{
 	padding: 2em;
 }
