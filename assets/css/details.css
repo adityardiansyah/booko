@@ -17,9 +17,7 @@ body{
   width: 32px;
   height: 32px;
   background-color: #fff;
-  /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;*/
   border-radius: 25px;
-  /*border: 1px solid #ccc;*/
   margin-bottom: 0;
 }
 
@@ -171,7 +169,7 @@ body{
 	background-color: #D8D8D8;
 	width: 100%;
 	height: 16.4em;
-	padding: 2em;
+	/*padding: 2em;*/
 	border-radius: 0.5em;
 }
 
@@ -180,7 +178,7 @@ body{
 }
 
 .footer-product-detail{
-	float: right;
+	/*float: right;*/
 }
 
 .footer-product-detail .btn-pinjam{
@@ -198,6 +196,7 @@ body{
 
 .content-cell{
 	color: #34C3EF;
+	font-weight: 900;
 }
 
 .spec-wrapper{
@@ -224,4 +223,8 @@ body{
 .ban-right{
 	width: 70%;
 	float: right;
+}
+
+.spec-heads{
+	margin: 1em 1em 0em 1em;
 }
