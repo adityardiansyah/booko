@@ -173,6 +173,10 @@ body{
 	border-radius: 0.5em;
 }
 
+.panel-detail .panel-body{
+	background-color: #D8D8D8;
+}
+
 .credentials{
 	margin: 0em 4.5em 0em 1em;
 }
@@ -195,8 +199,9 @@ body{
 }
 
 .content-cell{
-	color: #34C3EF;
+	color: #2E9ABC;
 	font-weight: 900;
+	padding-left: 0.5em;
 }
 
 .spec-wrapper{
@@ -227,4 +232,8 @@ body{
 
 .spec-heads{
 	margin: 1em 1em 0em 1em;
+}
+
+.page-link{
+	border-radius: 100%;
 }
