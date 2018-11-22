@@ -54,7 +54,7 @@ body{
 
 .search-form .form-group span.form-control-feedback {
   position: absolute;
-  top: 0.8em;
+  top: 1.1em;
   right: 1.05em;
   z-index: 2;
   display: block;
@@ -69,7 +69,7 @@ body{
 
 #carousels{
 	position: relative;
-	top: -3.47em;
+	top: -3.9em;
 	width: 100%;
 }
 #right-banner{
@@ -278,4 +278,12 @@ body{
 
 .left-icon{
 	text-align: center;
+}
+
+.navbar-nav{
+	font-size: 1.3em;
+}
+
+.navbar-brand{
+	margin-top: -0.3em;
 }
