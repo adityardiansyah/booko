@@ -1,8 +1,7 @@
 ScrollReveal().reveal('.book-product',{
-	interval: 200,
+	interval: 100,
 	origin: 'bottom',
 	distance: '10%',
-	// opacity: null,
 });
 ScrollReveal().reveal('#left-banner', {
 	origin: 'left',
@@ -15,4 +14,9 @@ ScrollReveal().reveal('#right-banner', {
 	distance: '150%',
 	easing : 'ease',
 	duration : 1000,
+});
+$('.trending-book').slick({
+	infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 1
 });
