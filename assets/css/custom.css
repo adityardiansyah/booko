@@ -193,8 +193,17 @@ body{
 	box-shadow: 0px 1px 4px #000;
 	transition: all .3s;
 }
+
 .bg-paralax{
 	background-image: url("../img/bg-perpus.jpg");
+	min-height: 240px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-paralax-1{
+	background-image: url("../img/bg-paralax.jpg");
 	min-height: 240px;
 	background-attachment: fixed;
     background-position: center;
@@ -228,7 +237,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 250px;
+	height: 18em;
 	transition: all .3s;
 	border-radius: 6px 6px 0 0;
 }
@@ -256,12 +265,12 @@ body{
 	margin: 0;
 }
 
-.comic-banner{
-	background-color: #474546;
+.paralax-item{
+	background-color: transparent;
 	padding: 3em;
 }
 
-.comic-banner h3, .comic-banner hr{
+.paralax-item h3, .paralax-item hr{
 	color: white;
 	text-align: center
 }
