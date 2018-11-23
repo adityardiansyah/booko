@@ -296,3 +296,31 @@ body{
 .navbar-brand{
 	margin-top: -0.3em;
 }
+.list-group-item{
+	transition: .3s;
+}
+.list-group-item:hover{
+	background: #568EFF;
+	color: #fff;
+	cursor: pointer;
+}
+.list-group-item:hover .badge{
+	background: #fff;
+	color: #568EFF;
+}
+.list-group-item i{
+	display: none;
+}
+.list-group-item:hover i{
+	display: inline-block;
+}
+.right{
+	float: right;
+}
+.list-group-item:hover a{
+	text-align: left;
+}
+footer{
+	border-top:1px solid #d9d9d9;
+	box-shadow: 1px 0px 8px;
+}
