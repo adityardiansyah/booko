@@ -1,5 +1,7 @@
 body{
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .navbar{
@@ -358,6 +360,12 @@ body{
 	border-radius: 20px;
 }
 footer{
-	border-top:1px solid #d9d9d9;
 	box-shadow: 1px 0px 8px;
+	width: 100%;
+}
+.footer-img{
+	height: 190px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
