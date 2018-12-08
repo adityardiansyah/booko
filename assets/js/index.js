@@ -15,8 +15,9 @@ ScrollReveal().reveal('#right-banner', {
 	easing : 'ease',
 	duration : 1000,
 });
-$('.trending-book').slick({
-	infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 1
-});
+// $('.trending-book').slick({
+// 	infinite: true,
+//   slidesToShow: 2,
+//   slidesToScroll: 1
+// });
+$('#ca-container').contentcarousel();
