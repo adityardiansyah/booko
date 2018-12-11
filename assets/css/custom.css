@@ -322,9 +322,19 @@ body{
 .list-group-item:hover a{
 	text-align: left;
 }
-.top-wrapper{
+.top-wrapper-pinjam{
 	height: 20em;
-	background: #07c;
+	background-image: url('../img/pinjam.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.top-wrapper-sewa{
+	height: 20em;
+	background-image: url('../img/sewa.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .text-nav{
 	color: #568EFF;
@@ -334,7 +344,9 @@ body{
 	color: #568EFF;
 }
 .search-form{
-
+	float: left;
+	margin-top: 32px;
+	text-align: center;
 }
 .c-white{
 	color: #fff;
