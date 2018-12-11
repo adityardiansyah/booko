@@ -2,7 +2,11 @@
 .ca-container{
 	position:relative;
 	margin:25px auto 20px auto;
+<<<<<<< HEAD
 	width:1210px;
+=======
+	width:95%;
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	height:450px;
 }
 .ca-wrapper{
@@ -13,7 +17,11 @@
 .ca-item{
 	position:relative;
 	float:left;
+<<<<<<< HEAD
 	width:245px;
+=======
+	width:300px;
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	height:100%;
 	text-align:center;
 }
@@ -48,7 +56,11 @@
 	opacity:1.0;
 }
 .ca-item-main{
+<<<<<<< HEAD
 	/*padding:20px;*/
+=======
+	padding:20px;
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	position:absolute;
 	top:5px;
 	left:5px;
@@ -56,9 +68,15 @@
 	bottom:5px;
 	background:#fff;
 	overflow:hidden;
+<<<<<<< HEAD
 	/*-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
 	box-shadow:1px 1px 2px rgba(0,0,0,0.2);*/
+=======
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 }
 .ca-icon{
 	width:233px;
@@ -173,9 +191,15 @@
 	font-style:italic;
 }
 .ca-content ul li a:hover{
+<<<<<<< HEAD
 	/*background:#fff;
 	color:#000;
 	text-shadow:none;*/
+=======
+	background:#fff;
+	color:#000;
+	text-shadow:none;
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 }
 .ca-nav span{
 	width:25px;

@@ -1,8 +1,14 @@
 /* General styles for the modal */
 
+<<<<<<< HEAD
 /*
 Styles for the html/body for special modal where we want 3d effects
 Note that we need a container wrapping all content on the page for the
+=======
+/* 
+Styles for the html/body for special modal where we want 3d effects
+Note that we need a container wrapping all content on the page for the 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 perspective effects (not including the modals and the overlay).
 */
 .md-perspective,
@@ -210,10 +216,17 @@ perspective effects (not including the modals and the overlay).
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+<<<<<<< HEAD
 	-webkit-transform: translateZ(600px) rotateX(20deg);
 	-moz-transform: translateZ(600px) rotateX(20deg);
 	-ms-transform: translateZ(600px) rotateX(20deg);
 	transform: translateZ(600px) rotateX(20deg);
+=======
+	-webkit-transform: translateZ(600px) rotateX(20deg); 
+	-moz-transform: translateZ(600px) rotateX(20deg); 
+	-ms-transform: translateZ(600px) rotateX(20deg); 
+	transform: translateZ(600px) rotateX(20deg); 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	opacity: 0;
 }
 
@@ -224,7 +237,11 @@ perspective effects (not including the modals and the overlay).
 	-webkit-transform: translateZ(0px) rotateX(0deg);
 	-moz-transform: translateZ(0px) rotateX(0deg);
 	-ms-transform: translateZ(0px) rotateX(0deg);
+<<<<<<< HEAD
 	transform: translateZ(0px) rotateX(0deg);
+=======
+	transform: translateZ(0px) rotateX(0deg); 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	opacity: 1;
 }
 
@@ -239,10 +256,17 @@ perspective effects (not including the modals and the overlay).
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+<<<<<<< HEAD
 	-webkit-transform: translate(30%) translateZ(600px) rotate(10deg);
 	-moz-transform: translate(30%) translateZ(600px) rotate(10deg);
 	-ms-transform: translate(30%) translateZ(600px) rotate(10deg);
 	transform: translate(30%) translateZ(600px) rotate(10deg);
+=======
+	-webkit-transform: translate(30%) translateZ(600px) rotate(10deg); 
+	-moz-transform: translate(30%) translateZ(600px) rotate(10deg);
+	-ms-transform: translate(30%) translateZ(600px) rotate(10deg);
+	transform: translate(30%) translateZ(600px) rotate(10deg); 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	opacity: 0;
 }
 
@@ -409,9 +433,14 @@ perspective effects (not including the modals and the overlay).
 }
 
 .md-show.md-effect-12 ~ .md-overlay {
+<<<<<<< HEAD
 	/*background: #e74c3c;*/
 	background-color: #E63E3E;
 }
+=======
+	background: #e74c3c;
+} 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 
 .md-effect-12 .md-content h3,
 .md-effect-12 .md-content {
@@ -570,7 +599,11 @@ perspective effects (not including the modals and the overlay).
 	-webkit-transition: -webkit-transform 0.3s;
 	-moz-transition: -moz-transform 0.3s;
 	transition: transform 0.3s;
+<<<<<<< HEAD
 }
+=======
+}	
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 
 .md-show.md-effect-17 ~ .container,
 .md-show.md-effect-17 ~ .md-overlay  {
@@ -691,23 +724,41 @@ perspective effects (not including the modals and the overlay).
 }
 
 @-webkit-keyframes OpenTop {
+<<<<<<< HEAD
 	50% {
 		-webkit-transform: rotateX(10deg);
 		-webkit-animation-timing-function: ease-out;
+=======
+	50% { 
+		-webkit-transform: rotateX(10deg); 
+		-webkit-animation-timing-function: ease-out; 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	}
 }
 
 @-moz-keyframes OpenTop {
+<<<<<<< HEAD
 	50% {
 		-moz-transform: rotateX(10deg);
 		-moz-animation-timing-function: ease-out;
+=======
+	50% { 
+		-moz-transform: rotateX(10deg); 
+		-moz-animation-timing-function: ease-out; 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	}
 }
 
 @keyframes OpenTop {
+<<<<<<< HEAD
 	50% {
 		transform: rotateX(10deg);
 		animation-timing-function: ease-out;
+=======
+	50% { 
+		transform: rotateX(10deg); 
+		animation-timing-function: ease-out; 
+>>>>>>> c3078793348cba1b1b832ebd69dc858a37631589
 	}
 }
 
