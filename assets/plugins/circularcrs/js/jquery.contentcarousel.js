@@ -179,7 +179,7 @@
 						$el.find('a.ca-more').live('click.contentcarousel', function( event ) {
 							if( cache.isAnimating ) return false;
 							cache.isAnimating	= true;
-							$(this).hide();
+							// $(this).hide();
 							var $item	= $(this).closest('div.ca-item');
 							aux.openItem( $wrapper, $item, settings, cache );
 							return false;

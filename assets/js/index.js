@@ -21,3 +21,6 @@ ScrollReveal().reveal('#right-banner', {
 //   slidesToScroll: 1
 // });
 $('#ca-container').contentcarousel();
+setInterval(function (argument) {
+	$('.ca-nav-next').click();
+}, 5000)
