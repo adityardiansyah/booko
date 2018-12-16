@@ -246,7 +246,7 @@ nav{
 	transition: all .3s;
 	border-radius: 6px 6px 0 0;
 }
-.book-product:hover{
+.book-product:hover:not(.no-zoom){
 	transform: scale(1.1);
 }
 .book-title{
