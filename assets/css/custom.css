@@ -3,7 +3,9 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
+nav{
+	position: fixed;
+}
 .navbar{
 	z-index: 9;
 	color: white;
@@ -27,6 +29,7 @@ body{
 
 .navbar-nav{
 	transition: all 0.35s, border-radius 0s;
+	margin-left: 32px;
 }
 
 .search-form .form-group input.form-control {
