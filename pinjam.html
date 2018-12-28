@@ -9,50 +9,105 @@
 	<link rel="stylesheet" type="text/css" href="assets/plugins/circularcrs/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/plugins/circularcrs/css/jquery.jscrollpane.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="assets/plugins/windowmodal/css/component.css">
+
+	<style>
+		.navbar-light .navbar-nav .nav-link{
+			color: #000;
+			letter-spacing: 1px;
+		}
+		.navbar-light .navbar-nav .nav-link:hover{
+			color: #07c;
+		}
+		.form-search{
+			width: 25%;
+			background-color: #fff;
+			border-radius: 100px;
+			box-shadow: 0 1px 6px #615555;
+		}
+	</style>
 </head>
-<body>
+<body style="background-color: #dbe3f5; padding: 0; margin: 0;">
 	<div>
-		<nav class="navbar navbar-expand-lg navbar-light bg-none">
-		  <a class="navbar-brand text-white" href="index.html"><img src="assets/img/logo.png" class="img-responsive" alt="Image" width="140em" style="padding: 0; margin: 0;"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg navbar-light bg-none" style="position: fixed; z-index: 999999; width: 100%; background-color: #fff;">
+		<div class="col-md-2">
+			<a class="navbar-brand text-white" href="index.html"><img src="assets/img/logow.png" class="img-responsive" alt="Image" width="140em" style="padding: 0; margin: 0;"></a>
+		</div>
+		<div class="col-md-10">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item ">
+		      <li class="nav-item active">
 		        <a class="nav-link text-nav" href="pinjam.html">Pinjam <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link text-nav" href="sewa.html">Sewa</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link text-nav" href="#">Daftar</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link text-nav" href="#">Login</a>
+		        <a class="nav-link text-nav md-trigger" href="#" data-modal="modal-masuk">Masuk</a>
 		      </li>
 		    </ul>
-		    <form action="" class="search-form my-2 my-lg-0">
-		        <div class="form-group has-feedback">
-		    		<label for="search" class="sr-only">Search</label>
-		    		<input type="text" class="form-control" name="search" id="search" placeholder="Cari Buku">
-		      		<span class="fas fa-search form-control-feedback"></span>
+		    <div class="form-search">
+		    	<div class="form-group">
+		    			<input type="text" class="form-control" name="search" placeholder="Cari Buku" style="float: left; width: 85%; border-radius: 100px; border:none;">
+		      			<a href="pencarian.html" style="float: right; font-size: 18px; padding-right: 12px; padding-top:4px;"><span class="fas fa-search"></span></a>
 		    	</div>
-		    </form>
+		    </div>
+		    <img src="assets/img/avatar.jpg" class="img-responsive" style="border-radius: 100px; margin-left: 16px; border:2px solid #fff;">
 		  </div>
+		</div>
+		  
 		</nav>
+		
+		<!-- <div id="carousels" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousels" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousels" data-slide-to="1"></li>
+		    <li data-target="#carousels" data-slide-to="2"></li>
+		    <li data-target="#carousels" data-slide-to="3"></li>
+		    <li data-target="#carousels" data-slide-to="4"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="assets/img/bokoko1.png" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/bokoko2.png" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/bokoko3.png" alt="Third slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/bokoko4.png" alt="Forth slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/bokoko5.png" alt="Fifth slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carousels" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carousels" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div> -->
 	</div>
-
+	<div style="padding-top: 64px;">
+		
+	</div>
 	<div class="top-wrapper-pinjam">
 		<div class="wrapper">
 			<div class="search-form">
 				<h2 align="center" class="c-white">Pinjam Buku</h2>
-				<form class="text-center top32 bg-search">
+<!-- 				<form class="text-center top32 bg-search">
 					<input type="text" class="input-cari" placeholder="Cari disini ...">
 					<a href="pencarian.html"><span class="fas fa-search form-control-feedback"></span></a>
 				</form>
-				<br>
+				<br> -->
 				<h5 align="center" class="c-white">Cukup 5 menit</h5>
 				<h5 align="center" class="c-white">Sudah bisa pinjam buku yang kamu sukai!</b>
 			</div>
@@ -74,124 +129,92 @@
 			</div>
 		</div>
 		<div class="row trending-book">
-			<!-- <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div>
-			<div class="col-xs-2 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div>
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div>
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div>
-			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-
-			</div> -->
 			<div id="ca-container" class="ca-container">
 				<div class="ca-wrapper">
 					<div class="ca-item ca-item-1">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
+						<div class="ca-item-main">
+							<div class="book-product no-zoom" >
+								<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
 
+								</div>
+								<br>
+								<div class="book-title">Buku Pintar Bisnis Online</div>
+								<br>
+								<div class="book-price">Rp. 20.000,-</div>
 							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
+							<!-- <h4>
+								<span>The greatness of a nation and its moral progress can be judged by the way in which its animals are treated.</span>
+							</h4> -->
 						</div>
 					</div>
 					<div class="ca-item ca-item-2">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
+						<div class="ca-item-main">
+							<div class="book-product no-zoom" >
+								<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
 
+								</div>
+								<br>
+								<div class="book-title">Buku Pintar Bisnis Online</div>
+								<br>
+								<div class="book-price">Rp. 20.000,-</div>
 							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
+							<!-- <h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I hold that the more helpless a creature, the more entitled it is to protection by man from the cruelty of man.</span>
+							</h4> -->
 						</div>
 					</div>
 					<div class="ca-item ca-item-3">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
+						<div class="ca-item-main">
+							<div class="book-product no-zoom" >
+								<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
 
+								</div>
+								<br>
+								<div class="book-title">Buku Pintar Bisnis Online</div>
+								<br>
+								<div class="book-price">Rp. 20.000,-</div>
 							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
+							<!-- <h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>I feel that spiritual progress does demand at some stage that we should cease to kill our fellow creatures for the satisfaction of our bodily wants.</span>
+							</h4> -->
 						</div>
 					</div>
 					<div class="ca-item ca-item-4">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
+						<div class="ca-item-main">
+							<div class="book-product no-zoom" >
+								<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
 
+								</div>
+								<br>
+								<div class="book-title">Buku Pintar Bisnis Online</div>
+								<br>
+								<div class="book-price">Rp. 20.000,-</div>
 							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
+							<!-- <h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A man is but the product of his thoughts what he thinks, he becomes.</span>
+							</h4> -->
 						</div>
 					</div>
 					<div class="ca-item ca-item-5">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
+						<div class="ca-item-main">
+							<div class="book-product no-zoom" >
+								<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
 
+								</div>
+								<br>
+								<div class="book-title">Buku Pintar Bisnis Online</div>
+								<br>
+								<div class="book-price">Rp. 20.000,-</div>
 							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
+							<!-- <h4>
+								<span class="ca-quote">&ldquo;</span>
+								<span>A man is but the product of his thoughts what he thinks, he becomes.</span>
+							</h4> -->
 						</div>
 					</div>
-					<div class="ca-item ca-item-6">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
-
-							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
-						</div>
-					</div>
-					<div class="ca-item ca-item-7">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
-
-							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
-						</div>
-					</div>
-					<div class="ca-item ca-item-8">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
-
-							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
-						</div>
-					</div>
-					<div class="ca-item ca-item-9">
-						<div class="book-product" >
-							<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
-
-							</div>
-							<br>
-							<div class="book-title">Buku Pintar Bisnis Online</div>
-							<br>
-							<div class="book-price">Rp. 0,-</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -199,87 +222,8 @@
 		<hr>
 	</div>
 
-	<div class="wrapper">
-		<div class="row">
-			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-				<h3 style="font-weight: 900;"><b class="blue">Buku</b> Populer</h3>
-				<hr class="underline-brand">
-			</div>
-			<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
-
-			</div>
-			
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/1.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Buku Pintar Bisnis Online</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/2.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Bisnis Advertising dan Desain Grafis</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/3.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Bisnis Berkah Omset Milyaran</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/4.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Bisnis Undercover Top Secret</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/6.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Bisnis dan Investasi Properti Indonesia</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2" style="margin: 0; padding: 0;">
-				<div class="book-product" >
-					<div class="product-img" style="background-image: url('assets/img/buku/bisnis/7.jpg');">
-
-					</div>
-					<br>
-					<div class="book-title">Bisnis Online Dropshiping</div>
-					<br>
-					<div class="book-price">Rp. 0,-</div>
-				</div>
-			</div>
-		</div>
-		<hr>
-	</div>
+	
+	
 	<div class="wrapper">
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -498,14 +442,11 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer-img" style="background-image: url('assets/img/footer.png');">
+	
 	</div>
 				
-<footer>
-	<div class="wrapper">
-		<span><b>BOOKO</b> &copy; 2018. All Reversed Right</span>
-		<span style="float: right;">Powered By Team Of Kepepet</span>
-	</div>
+<footer style="margin-top: 64px;">
+	<img src="assets/img/footer.png" style="width: 100%;">
 </footer>
 </body>
 </html>
